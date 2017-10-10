@@ -8,15 +8,18 @@ html {
   box-sizing: inherit;
 }
 
-header {
+body {
   background-color: #79756f;
   border: 3px solid #595652;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
   color: #fff;
   text-align: center;
   font-family: "Bevan", cursive;
+  margin: 0;
 }
 
 .boxes {
@@ -29,9 +32,24 @@ h1 {
 .boxes li {
   display: inline-block;
   margin: .3em;
-  padding: .5em .75em;
+  padding: 0;
   background-color: #713837;
   color: #fff;
   border-radius: 5px;
   text-align: left;
+  font-family: sans-serif;
+}
+
+.boxes a {
+  display: inline-block;
+  padding: .5em .75em;
+  background-color: #713837;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.boxes a:hover {
+  background-color: #f33;
+  color: #fff;
 }
